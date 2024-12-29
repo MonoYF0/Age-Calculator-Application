@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--text-color);
+}
+
+::-moz-selection {
+  background: #834dff;
+  color: white;
+}
+
+::selection {
+  background: #834dff;
+  color: white;
+}
+
+:root {
+  --text-color: rgba(240, 240, 240, 255);
+}
+
+.container {
+  background-color: white;
+  width: 800px;
+  height: 600px;
+  border-radius: 20px 20px 200px 20px;
+  border: 2px rgb(245, 245, 245) solid;
+  overflow: hidden;
+  position: relative;
+}
+
+hr {
+  border: 1px solid #f7f7f7;
+  margin: 0 70px 0 70px;
+}
+
+input {
+  border-radius: 7px;
+  border: 1px #f6f6f6 solid;
+  width: 150px;
+  height: 70px;
+  margin: 10px 0px 50px 0px;
+  outline: none;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+input:focus {
+  border: 1px solid #cfbbfe;
+}
+
+.birthday-input {
+  display: flex;
+}
+
+.birthday-input div {
+  margin-right: 35px;
+  margin-top: 70px;
+}
+
+.birthday-input div h2,
+.birthday-input,
+.birthday-input div input {
+  background-color: white;
+}
+
+.birthday-input div h2 {
+  font-size: 0.8rem;
+  color: #909090;
+  letter-spacing: 5px;
+}
+
+.birthday-input div:first-child {
+  margin-left: 70px;
+}
+
+.result-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #000;
+  border-radius: 50%;
+  right: 70px;
+  top: 165px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.result-btn i {
+  font-size: 3rem;
+  color: #f6f6f6;
+}
+.result-btn:hover {
+  background: #834dff;
+  transition: all 0.3s;
+}
+
+.result {
+  font-size: 2.8rem;
+  font-style: italic;
+}
+
+.result div span {
+  margin: 0 15px 0 70px;
+  font-weight: 900;
+  font-size: 6rem;
+  color: #834dff;
+}
+
+.years,
+.months,
+.days {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */
